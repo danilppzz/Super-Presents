@@ -1,0 +1,8 @@
+updateChecker: false
+
+# Not recommended.
+useBetaFeatures: false
+
+# All the messages support chat color by &.
+translation:
+  error_permission: "&fYou don't have enough permissions."

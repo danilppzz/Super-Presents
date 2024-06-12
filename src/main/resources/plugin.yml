@@ -1,0 +1,19 @@
+name: SuperPresents
+version: '${project.version}'
+main: dev.danilppzz.superpresents.SuperPresents
+api-version: '1.20'
+load: STARTUP
+
+commands:
+  superpresents:
+    permission: superpresents.reload
+    description: Main command of SuperPresents.
+
+permissions:
+  superpresents.*:
+    description: All permissions of SuperPresents
+    children:
+      - superjoin.reload
+
+  superpresents.reload:
+    description: Reload the plugin configuration.
